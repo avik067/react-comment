@@ -1,0 +1,81 @@
+/* Write your CSS here */
+.main {
+  background-color: #ffffff;
+  min-height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-upper {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+.input-card {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.comment-lower {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-inline: 50px;
+}
+p {
+  color: #475569;
+  font-family: roboto;
+}
+h1 {
+  color: #1e293b;
+  font-family: roboto;
+}
+hr {
+  width: 84%;
+}
+li {
+  list-style: none;
+}
+input {
+  width: 90%;
+  margin-bottom: 10px;
+}
+textarea {
+  width: 90%;
+  height: 100px;
+  margin-bottom: 10px;
+}
+.static-image {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.img {
+  width: 70%;
+}
+ul {
+  min-width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+.add-button {
+  background-color: #0284c7;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  font-size: 10px;
+  padding: 7px;
+  border-radius: 2px;
+}
+.span-count {
+  background-color: #0284c7;
+  padding: 4px;
+  border-radius: 2px;
+  color: #ffffff;
+}

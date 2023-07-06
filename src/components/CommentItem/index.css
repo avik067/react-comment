@@ -1,0 +1,86 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+
+.comment-container {
+  padding: 0pxs;
+}
+
+.comment {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.user-pic {
+  padding: 4px 10px 10px 10px;
+  color: #ffffff;
+  height: 20px;
+  width: 14px;
+  border-radius: 50px;
+  text-align: center;
+  box-sizing: content-box;
+  margin-right: 10px;
+}
+
+.time {
+  color: #cbd2d9;
+  font-weight: 300;
+}
+.like {
+  background-color: #ffffff;
+  padding: none;
+  border: none;
+  outline: none;
+}
+
+.blue {
+  background-color: transparent;
+  color: #0ea5e9;
+  font-family: Roboto;
+  font-weight: 1000;
+}
+.icon {
+  margin-right: 20px;
+}
+
+.shade {
+  background-color: transparent;
+  color: #cbd2d9;
+  font-family: Roboto;
+  font-weight: 1000;
+}
+.button-apart {
+  display: flex;
+  justify-content: space-between;
+}
+.hr-comment {
+  width: 100%;
+}
